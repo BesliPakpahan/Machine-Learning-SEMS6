@@ -1,0 +1,10 @@
+https://canva.link/49ybqndse70e2xu
+
+"""SLIDE DIISI SESUAI DENGAN TUGAS PADA GOOGLE COLLAB"""
+
+Rules:
+1. Slide menggunakan bahasa inggris
+2. Sesuaikan susunan slide dengan urutan proses google collab
+3. Jangan merubah font style
+4. Jika ada perubahan layout template, sesuaikan dengan tema template
+5. Pemaparan hasil atau proses harus disertakan data dari google collab
