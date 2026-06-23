@@ -1,0 +1,99 @@
+
+--- PAGE 1 ---
+Deep Learning - Transfer Learning
+Week 13
+D4 Robotics Engineering Study Program
+Department of Electrical Engineering
+Politeknik Negeri Batam
+Politeknik
+Negeri 
+Batam
+Machine Learning
+
+--- PAGE 2 ---
+Traditional Deep Learning Challenges
+Permasalahan Utama:
+•
+Membutuhkan dataset yang sangat besar (jutaan sampel)
+•
+Waktu training yang sangat lama 
+•
+Komputasi yang mahal (GPU high-end)
+•
+Overfitting pada dataset kecil
+Solusi: Transfer Learning memungkinkan kita memanfaatkan model yang sudah dilatih untuk mengatasi 
+keterbatasan ini.
+
+--- PAGE 3 ---
+Transfer Learning
+Transfer Learning:
+Metode dalam machine learning yang memanfaatkan pengetahuan yang diperoleh dari satu tugas 
+(source domain) untuk meningkatkan pembelajaran pada tugas yang berbeda namun terkait (target 
+domain).
+Konsep Dasar:
+Source 
+Domain
+Knowledge 
+Transfer
+Target 
+Domain
+
+--- PAGE 4 ---
+Transfer Learning Illustration
+
+--- PAGE 5 ---
+Types of Transfer Learning
+Metode
+Karakteristik
+Datset Size
+Fixed Feature Extractor
+Freeze pre-trained layers
+Kecil (<1K)
+Fine-tuning
+Update semua layers
+Sedang (1K-10K)
+Pre-trained as Initialization
+Starting point training
+Besar (>10K)
+
+--- PAGE 6 ---
+Fixed Feature Extractor
+Arsitektur model yang lama (Source Domain) akan digunakan sebagai feature extractor, 
+kemudian bagian classifier (bagian akhir neural networks) dimodifikasi.
+
+--- PAGE 7 ---
+Fine-Tuning
+Metode ini mirip dengan teknik Fixed Feature Extractor, hanya saja pada saat proses 
+pelatihan dengan menggunakan target domain, frozen tidak digunakan
+Using Pre-Trained Model
+Metode ini memanfaatkan checkpoints 
+dari pelatihan model yang lain
+
+--- PAGE 8 ---
+Applications in Computer Vision
+• Popular Pre-trained Models
+• ResNet: Skip connections, very deep networks
+• VGG: Simple architecture, good for feature 
+extraction
+• EfficientNet: Optimal accuracy-efficiency 
+trade-off
+• Vision Transformer: Latest state-of-the-art
+
+--- PAGE 9 ---
+Practice
+Image Classification using transfer learning: Deteksi Jenis Sampah di Sekitar Kampus
+Dataset: https://www.kaggle.com/datasets/farzadnekouei/trash-type-image-dataset
+
+--- PAGE 10 ---
+21
+Reference
+1.
+https://towardsdatascience.com/transfer-learning-from-pre-trained-models-
+f2393f124751
+2. https://www.researchgate.net/figure/The-architecture-of-our-transfer-learning-
+model_fig4_342400905
+3. https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-
+with-real-world-applications-in-deep-learning-212bf3b2f27a 
+
+--- PAGE 11 ---
+THANK YOU!

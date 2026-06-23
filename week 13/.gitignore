@@ -1,0 +1,14 @@
+# Dataset (terlalu besar)
+archive (4)/
+
+# Model keras files (terlalu besar, >26MB)
+*.keras
+*.h5
+
+# Copy notebooks (hanya simpan yang utama)
+*copy*.ipynb
+
+# Cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
